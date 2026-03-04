@@ -1,5 +1,3 @@
-package sdj.practice0303;
-
 import java.util.Scanner;
 
 public class DiceDemo {
@@ -15,11 +13,5 @@ public class DiceDemo {
             dice.roll();
             num--;
         }
-    }
-}
-
-class Dice {
-    public void roll(){
-        System.out.println((int) (Math.random()*6) + 1);
     }
 }
